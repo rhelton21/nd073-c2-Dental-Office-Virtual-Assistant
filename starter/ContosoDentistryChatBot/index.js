@@ -82,10 +82,11 @@ const configuration = {
 const myBot = new DentaBot(configuration, {});
 
 // Listen for incoming requests.
-server.post('/api/messages', (req, res) => {
+server.post('/api/messages', (req, res, next) => {
     adapter.processActivity(req, res, async (context) => {
         // Route to main dialog.
         await myBot.run(context);
+        return next(); // Add this line to indicate completion of the middleware
     });
 });
 

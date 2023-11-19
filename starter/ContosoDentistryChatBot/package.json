@@ -16,18 +16,19 @@
         "url": "https://github.com"
     },
     "dependencies": {
-        "botbuilder": "~4.11.0",
+        "axios": "^1.6.1",
+        "botbuilder": "^4.21.1",
         "botbuilder-ai": "^4.12.0",
-        "dotenv": "^8.2.0",
-        "restify": "~8.5.1"
+        "dotenv": "^16.3.1",
+        "restify": "^11.1.0"
     },
     "devDependencies": {
-        "eslint": "^7.0.0",
-        "eslint-config-standard": "^14.1.1",
+        "eslint": "^8.53.0",
+        "eslint-config-standard": "^17.1.0",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.0.1",
-        "nodemon": "~2.0.4"
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-standard": "^5.0.0",
+        "nodemon": "^3.0.1"
     }
 }
